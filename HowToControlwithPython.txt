@@ -1,0 +1,33 @@
+Python xArm Package:
+https://github.com/xArm-Developer/xArm-Python-SDK 
+
+
+Motor Driver installation: 
+1. https://www.waveshare.com/wiki/Bus_Servo_Driver_HAT_(A)
+2. Open anaconda navigator
+3. Go to Environments, press 'play' on WellPlateHandlingGripper env, select 'Open Terminal'
+4. In the shell, type: cd C:\Users\xXInk\OneDrive\Documents\Fontys\Graduation Internship\Code\STServo_Python
+5. Type: stservo-env\Scripts\activate.bat
+6. Type: python -m pip install -r requirements.txt
+7. Should return: successfully installed pyserial-3.5
+	Pyserial needs to be installed
+
+Edit code in VS Code
+	Open VS code through the anaconda navigator
+
+Controlling the motor:
+1. Open anaconda navigator
+2. Go to Environments, press 'play' on WellPlateHandlingGripper env, select 'Open Terminal'
+3. In the shell, type: cd C:\Users\xXInk\OneDrive\Documents\Fontys\Graduation Internship\Code\STServo_Python
+4. Type: stservo-env\Scripts\activate.bat
+5. Type: cd C:\Users\xXInk\OneDrive\Documents\Fontys\Graduation Internship\Code\STServo_Python\stservo-env\STServo_Python
+
+Ping:
+6. Type: python ping.py
+
+Write:
+6. Type: python write.py 
+
+etc.
+
+
